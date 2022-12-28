@@ -3,7 +3,7 @@ from whatever import tosubs
 import random
 import os
 from keep_alive import keep_alive
-import time
+from time import sleep
 
 keep_alive()
 
