@@ -24,3 +24,4 @@ target_subreddit=random.choice(tosubs)
 #crosspost to another subreddit
 submission.crosspost(target_subreddit)
 print("Crossposted to ", target_subreddit)
+sleep(900)
