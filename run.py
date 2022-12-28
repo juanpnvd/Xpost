@@ -20,6 +20,8 @@ for submission in subreddit.new(limit=1):
     print("Title: ", submission.title)
     print("Text: ", submission.selftext)
 
+sleep(900)
+
 target_subreddit=random.choice(tosubs)
 
 #crosspost to another subreddit
