@@ -2,10 +2,7 @@ import praw
 from whatever import tosubs
 import random
 import os
-from keep_alive import keep_alive
 from time import sleep
-
-keep_alive()
 
 
 reddit = praw.Reddit(client_id=os.environ['client_id'],
